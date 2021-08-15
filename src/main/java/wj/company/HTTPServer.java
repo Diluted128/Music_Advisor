@@ -12,7 +12,6 @@ public class HTTPServer {
 
     public final static String CLIENT_ID = "1ac1274ae76e4beba32f969999b1392d";
     public final static String CLIENT_SECRET = "4a4d9ebb5ddd43a1a231104b1173b619";
-    public final static String PORT = "8080";
     public final static String REDIRECTED_URI = "http://localhost:8080";
 
     public static String GRANT = null;
@@ -60,7 +59,6 @@ public class HTTPServer {
         };
     }
     public static void sendResponse(HttpExchange exchange, int operationCode, String message) throws IOException {
-        System.out.println("V: ");
         exchange.sendResponseHeaders(operationCode, message.length());
         exchange.getResponseBody().write(message.getBytes());
         exchange.getResponseBody().close();

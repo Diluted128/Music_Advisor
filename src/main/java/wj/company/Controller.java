@@ -47,7 +47,7 @@ public class Controller {
     void parseJsonToken(HttpResponse<String> response){
         JsonObject json = JsonParser.parseString(response.body()).getAsJsonObject();
         HTTPServer.TOKEN = json.get("access_token").getAsString();
-        System.out.println(HTTPServer.TOKEN);
+        System.out.println("Token: " + HTTPServer.TOKEN);
     }
 
     void parseJsonNewAlbums(HttpResponse<String> response) {
