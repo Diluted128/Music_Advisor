@@ -12,17 +12,17 @@ To perform any actions other than authorization require the user has to be autho
 
 ## Output Example
 ```
-auth
+> auth
 https://accounts.spotify.com/authorize?client_id=1ac1274ae76e4beba32f969999b1392d&redirect_uri=http://localhost:8080&response_type=code
 waiting for code...
-code=AQDKpb9N0SJ3fQOfvnLoW-YjoLQODSROOJxJzhgI8aSekMO0S9q2splpWwgWT-Vkfa6AL8kd85CsmN4__jcsg6L8SRAyuO99-yTbG6mOAVdCJqDQeLF_T2uCtEgfh5IJe6xODtXbPK_StBKbBBRFrY30WciXdnr4PQ
+CODE: code=AQDKpb9N0SJ3fQOfvnLoW-YjoLQODSROOJxJzhgI8aSekMO0S9q2splpWwgWT-Vkfa6AL8kd85CsmN4__jcsg6L8SRAyuO99-yTbG6mOAVdCJqDQeLF_T2uCtEgfh5IJe6xODtXbPK_StBKbBBRFrY30WciXdnr4PQ
 code received
-V: 
 making http request for access_token...
 response: 
-BQDI8YElg71WkFmYMfCW1z72tC_4_IdyaC39YcIOR5yvuWKBNfrdXdMdkpMQrJ0MgqCRvivmB6xopk38-gBb6yeGDqfN23-Xc8OhK-wf9ihMmEr0GlBgQdygXDVSPsAsF7nfhJitNA
+TOKEN: BQDI8YElg71WkFmYMfCW1z72tC_4_IdyaC39YcIOR5yvuWKBNfrdXdMdkpMQrJ0MgqCRvivmB6xopk38-gBb6yeGDqfN23-Xc8OhK-wf9ihMmEr0GlBgQdygXDVSPsAsF7nfhJitNA
 ---SUCCESS---
-featured
+
+> featured
 
 Summer Throwbacks
 https://open.spotify.com/playlist/37i9dQZF1DWZg863fGtALu
@@ -39,39 +39,10 @@ https://open.spotify.com/playlist/37i9dQZF1DX4bSrsRWE9cd
 Gold Edition
 https://open.spotify.com/playlist/37i9dQZF1DWXnexX7CktaI
 
+...
 
-Summer Hits of the 90s
-https://open.spotify.com/playlist/37i9dQZF1DX8SIpKv9qw6x
+> categories
 
-
-Guilty Pleasures
-https://open.spotify.com/playlist/37i9dQZF1DX4pUKG1kS0Ac
-
-
-All Out 10s
-https://open.spotify.com/playlist/37i9dQZF1DX5Ejj0EkURtP
-
-
-Lush Lofi
-https://open.spotify.com/playlist/37i9dQZF1DXc8kgYqQLMfH
-
-
-Rock Classics
-https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U
-
-
-Peaceful Piano
-https://open.spotify.com/playlist/37i9dQZF1DX4sWSpwq3LiO
-
-
-Dance Classics
-https://open.spotify.com/playlist/37i9dQZF1DX8a1tdzq5tbM
-
-
-I Love My '90s Hip-Hop
-https://open.spotify.com/playlist/37i9dQZF1DX186v583rmzp
-
-categories
 Top Lists
 Summer
 Hip Hop
@@ -84,22 +55,10 @@ Workout
 EQUAL
 Decades
 Rock
-RADAR
-Alternative
-Tokyo
-Romance
-Focus
-Kids & Family
-Dance/Electronic
-Frequency
-playlist Romance
-playlists Romance
-Unknown category name.
-playlists Rock
 
-Tylko Polski Rock
-https://open.spotify.com/playlist/37i9dQZF1DX4x0y4AP3Q3A
-
+ ... 
+ 
+> playlists Rock
 
 Full Volume
 https://open.spotify.com/playlist/37i9dQZF1DWUv0cTKdT8jJ
@@ -107,14 +66,6 @@ https://open.spotify.com/playlist/37i9dQZF1DWUv0cTKdT8jJ
 
 Rock Classics
 https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U
-
-
-Polski Rock: Legendy
-https://open.spotify.com/playlist/37i9dQZF1DX7S9eVfUJ1bm
-
-
-Rockowe hymny
-https://open.spotify.com/playlist/37i9dQZF1DWUiWDS0oxpZg
 
 
 Walk Like A Badass
@@ -132,49 +83,7 @@ https://open.spotify.com/playlist/37i9dQZF1DWWGFQLoP9qlv
 80s Rock Anthems
 https://open.spotify.com/playlist/37i9dQZF1DX1spT6G94GFC
 
-
-00s Rock Anthems
-https://open.spotify.com/playlist/37i9dQZF1DX3oM43CtKnRV
-
-
-90s Rock Anthems
-https://open.spotify.com/playlist/37i9dQZF1DX1rVvRgjX59F
-
-
-Indie Rock Club
-https://open.spotify.com/playlist/37i9dQZF1DX35DWKgAk2B5
-
-
-Just Rock!
-https://open.spotify.com/playlist/37i9dQZF1DX2IvZJK5xwFt
-
-
-Rock This
-https://open.spotify.com/playlist/37i9dQZF1DXcF6B6QPhFDv
-
-
-Pure Rock & Roll
-https://open.spotify.com/playlist/37i9dQZF1DWWRktbhJiuqL
-
-
-Yacht Rock
-https://open.spotify.com/playlist/37i9dQZF1DXb3m918yXHxA
-
-
-Grunge Forever
-https://open.spotify.com/playlist/37i9dQZF1DX11ghcIxjcjE
-
-
-80s Soft Rock
-https://open.spotify.com/playlist/37i9dQZF1DXccljMjoDjBT
-
-
-70s Rock Anthems
-https://open.spotify.com/playlist/37i9dQZF1DWWwzidNQX6jx
-
-
-One More Rep
-https://open.spotify.com/playlist/37i9dQZF1DX5OUjSS1OMgV
+...
 
 
 ```
