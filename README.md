@@ -8,7 +8,7 @@ To perform any actions other than authorization require the user has to be autho
 * `new` Shows list of new albums with artists and links on Spotify.
 * `featured` Shows list of Spotify featured playlists with their links fetched from API.
 * `categories` Shows list of all available categories on Spotify (just their names).
-* `playlists` C_NAME where C_NAME - name of category. List contains playlists of this category and their links on Spotify.
+* `playlists C_NAME` where C_NAME - name of category. List contains playlists of this category and their links on Spotify.
 
 ## Output Example
 ```
